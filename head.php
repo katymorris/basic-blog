@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Small Town Millennial</title>
+  <title>The Average Millennial</title>
   <meta name="description" content="Small Town Millennial">
   <meta name="author" content="Katy Morris">
   <link href="<?php bloginfo( 'template_directory' ); ?>/style.css" rel="stylesheet" media="screen">

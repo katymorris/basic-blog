@@ -14,6 +14,15 @@ function blogTitlePosition() {
 function setBlogImgSize() {
 	$('.blog-container .post img').attr({'width': '1000', 'height': 'auto'})
 }
+function centerPostTitle() {
+	$.each( $('.post'), function() {
+		var thisTitleContainer = $(this).find('.title-container');
+		var titleWidth = $(thisTitleContainer).outerWidth(true);
+		if (titleWidth < $(this).width()) {
+			$(thisTitleContainer).css({'left': '50%', 'margin-left': (titleWidth / 2) * -1})
+		}
+	})
+}
 function imageMediaQueries() {
 	if ($(window).width() < 1200) {
 		$('.main-img').attr({'width': '960', 'height': 'auto'})
@@ -52,6 +61,7 @@ $( document ).ready(function() {
     blogTitlePosition();
     setBlogImgSize();
     imageMediaQueries();
+    centerPostTitle();
 
     //Event Listeners
 
@@ -114,3 +124,7 @@ $( window ).resize(function() {
 		});
 	}
 });
+
+$(window).load(function(){
+
+})
