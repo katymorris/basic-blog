@@ -13,7 +13,7 @@ Blog
 			<?php require("header.php") ?>
 			<img class="about-pic" src="http://localhost:8888/blog/wp-content/themes/blog/images/about-pic.jpg">
 			<div class="about-text">
-				<p>I'm Katy. I'm not a special millennial who founded a successful start up at 25 years old - but I'm also not a lazy fuck millennial (I actually haven't met too many of those, I'm skeptical of their perceived proportion). I'm out to make my dream of becoming a successful programmer real while balancing a pretty awesome personal and family life.</p>
+				<p>I'm Katy. I'm out to make my dream of becoming a successful programmer real while balancing a pretty awesome personal and family life.</p>
 
 				<p class="big-text margin-top">Food.</p>
 				<br>
